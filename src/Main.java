@@ -24,8 +24,8 @@ public class Main {
         secondOrder.add(i5);
 
 
-        Orders o1= new Orders(30, 1, 400, 5,);
-        Orders o2= new Orders(34,2,600,3,);
+        Orders o1= new Orders(30, 1, 400, 5,firstOrder);
+        Orders o2= new Orders(34,2,600,3,firstOrder);
 
         ArrayList<Orders>FOrder= new ArrayList<Orders>();
         FOrder.add(o1);
